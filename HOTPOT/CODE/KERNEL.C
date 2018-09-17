@@ -5,7 +5,7 @@
 #include	"KERNEL.H"
 
 #include	"BUILD.H"
-#include	"CLOCK.H"
+#include	"CLOCK2.H"
 #include	"DATALOG.H"
 #include	"DEMO.H"
 #include	"GAMESAVE.H"
@@ -13,7 +13,6 @@
 #include	"FRONTEND.H"
 #include	"GAME.H"
 #include	"HISCORE.H"
-#include	"PLATFORM.H"
 #include	"RESOURCE.H"
 
 #include	"A_MAIN.H"

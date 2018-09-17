@@ -2,7 +2,7 @@
 #  INCLUDES
 ################################################################################### */
 
-#include	"CLOCK.H"
+#include	"CLOCK2.H"
 
 #include	"BUILD.H"
 #include	"DATALOG.H"

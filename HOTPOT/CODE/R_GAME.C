@@ -5,7 +5,7 @@
 #include	"R_GAME.H"
 
 #include	"BUILD.H"
-#include	"CLOCK.H"
+#include	"CLOCK2.H"
 #include	"DATALOG.H"
 #include	"GAME.H"
 #include	"PLAYER.H"
