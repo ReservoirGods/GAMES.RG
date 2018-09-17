@@ -1,0 +1,8 @@
+.ProjectName="HOTPOT"
+
+#include "..\..\..\GODLIB\FAST\head.bff"
+
+.ProjectOptions_Base = .ProjectOptions_Win_Base
+
+#include    "$GodLibDir$\FAST\Base.bff"
+#include    "$GodLibDir$\FAST\Combine.bff"

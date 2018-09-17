@@ -1,0 +1,451 @@
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\ball.bsb
+x           = 0
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 8
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\ballsqsh.bsb
+x           = 0
+y           = 16
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 8
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\arml0.bsb
+x           = 16
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 31
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\arml1.bsb
+x           = 64
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 31
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\arml2.bsb
+x           = 80
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 31
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\eye0.bsb
+x           = 128
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 15
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\eye1.bsb
+x           = 144
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 15
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\eye2.bsb
+x           = 160
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 15
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\legl0.bsb
+x           = 176
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 12
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\legl1.bsb
+x           = 192
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 12
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\legr0.bsb
+x           = 208
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 12
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\legr1.bsb
+x           = 224
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 12
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\armr0.bsb
+x           = 0
+y           = 32
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 31
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\armr1.bsb
+x           = 48
+y           = 32
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 31
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\armr2.bsb
+x           = 64
+y           = 32
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 31
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\ballcrak.bsb
+x           = 240
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 8
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\button.bsb
+x           = 240
+y           = 32
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 20
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\lednums.bsb
+x           = 128
+y           = 16
+stepx       = 16
+stepy       = 0
+width       = 16
+height      = 14
+planes      = 4
+canvaswidth = 320
+framecount  = 10
+}
+[ SPRITE ]
+{
+src         = gfx\ball-spr.pi1
+msk         = gfx\masks\ball-spr.pi1
+dst         = link\acrobats.bsb
+x           = 112
+y           = 32
+stepx       = 32
+stepy       = 0
+width       = 32
+height      = 18
+planes      = 4
+canvaswidth = 320
+framecount  = 4
+}
+[ SPRITE ]
+{
+src         = gfx\frnt-btz.pi1
+msk         = gfx\masks\frnt-btz.pi1
+dst         = link\fe_font.bsb
+x           = 0
+y           = 16
+stepx       = 16
+stepy       = 16
+width       = 16
+height      = 8
+planes      = 4
+canvaswidth = 320
+framecount  = 57
+}
+[ SPRITE ]
+{
+src         = gfx\frnt-btz.pi1
+msk         = gfx\masks\frnt-btz.pi1
+dst         = link\fe_eyes.bsb
+x           = 0
+y           = 0
+stepx       = 16
+stepy       = 0
+width       = 16
+height      = 16
+planes      = 4
+canvaswidth = 320
+framecount  = 57
+}
+[ SPRITE ]
+{
+src         = gfx\frnt-btz.pi1
+msk         = gfx\masks\frnt-btz.pi1
+dst         = link\fe_butn.bsb
+x           = 64
+y           = 0
+stepx       = 16
+stepy       = 0
+width       = 16
+height      = 11
+planes      = 4
+canvaswidth = 320
+framecount  = 2
+}
+[ SPRITE ]
+{
+src         = gfx\frnt-btz.pi1
+msk         = gfx\masks\frnt-btz.pi1
+dst         = link\fe_dot.bsb
+x           = 96
+y           = 0
+stepx       = 16
+stepy       = 0
+width       = 16
+height      = 4
+planes      = 4
+canvaswidth = 320
+framecount  = 2
+}
+[ SPRITE ]
+{
+src         = gfx\frnt-btz.pi1
+msk         = gfx\masks\frnt-btz.pi1
+dst         = link\fe_keys.bsb
+x           = 0
+y           = 64
+stepx       = 0
+stepy       = 0
+width       = 48
+height      = 21
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\frnt-btz.pi1
+msk         = gfx\masks\frnt-btz.pi1
+dst         = link\fe_jag.bsb
+x           = 48
+y           = 64
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 21
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\frnt-btz.pi1
+msk         = gfx\masks\frnt-btz.pi1
+dst         = link\fe_joy.bsb
+x           = 80
+y           = 64
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 21
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\frnt-btz.pi1
+msk         = gfx\masks\frnt-btz.pi1
+dst         = link\fe_12.bsb
+x           = 112
+y           = 64
+stepx       = 16
+stepy       = 0
+width       = 16
+height      = 9
+planes      = 4
+canvaswidth = 320
+framecount  = 2
+}
+[ SPRITE ]
+{
+src         = gfx\frnt-btz.pi1
+msk         = gfx\masks\frnt-btz.pi1
+dst         = link\fe_ab.bsb
+x           = 0
+y           = 96
+stepx       = 32
+stepy       = 0
+width       = 32
+height      = 15
+planes      = 4
+canvaswidth = 320
+framecount  = 4
+}
+[ SPRITE ]
+{
+src         = gfx\pause.pi1
+msk         = gfx\masks\pause.pi1
+dst         = link\pause.bsb
+x           = 0
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 80
+height      = 19
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = gfx\hi-font.pi1
+msk         = gfx\masks\hi-font.pi1
+dst         = link\hi_font.bsb
+x           = 0
+y           = 0
+stepx       = 16
+stepy       = 16
+width       = 16
+height      = 8
+planes      = 4
+canvaswidth = 320
+framecount  = 57
+}
+
