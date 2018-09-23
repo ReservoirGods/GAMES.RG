@@ -7,13 +7,13 @@
 #include	"BUILD.H"
 #include	"OBJECTS.H"
 
-#include	"R_FADE.H"
 #include	"R_FE.H"
 
 #include	"DATALOG.H"
 #include	"PLAYER.H"
 #include	"RESOURCE.H"
 
+#include	<GODLIB\FADE\FADE.H>
 #include	<GODLIB\GRAPHIC\GRAPHIC.H>
 #include	<GODLIB\SCREEN\SCREEN.H>
 #include	<GODLIB\SPRITE\SPRITE.H>
@@ -171,7 +171,7 @@ void	RenderBackGround_Update( void )
 
 void RenderBackGround_FadeDown(void)
 {
-	RenderFade_Main( RenderFade_GetpBlackPal(), 16 );
+	Fade_Main( Fade_GetpBlackPal(), 16 );
 }
 
 
@@ -183,7 +183,7 @@ void RenderBackGround_FadeDown(void)
 
 void RenderBackGround_FadeUp(void)
 {
-	RenderFade_Main( &gpRBGPic->mHeader.mPalette[ 0 ], 16 );
+	Fade_Main( &gpRBGPic->mHeader.mPalette[ 0 ], 16 );
 }
 
 

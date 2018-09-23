@@ -4,7 +4,6 @@
 
 #include	"R_HISCOR.H"
 
-#include	"R_FADE.H"
 #include	"R_FE.H"
 #include	"R_FONT.H"
 
@@ -14,6 +13,7 @@
 #include	"PLAYER.H"
 #include	"RESOURCE.H"
 
+#include	<GODLIB\FADE\FADE.H>
 #include	<GODLIB\INPUT\INPUT.H>
 #include	<GODLIB\SPRITE\SPRITE.H>
 #include	<GODLIB\PICTYPES\DEGAS.H>
@@ -120,7 +120,7 @@ void	RenderHiScore_Main( const U16 aTableIndex )
 	Screen_Update();
 /*	RenderScreen_CopyScreen( RenderScreen_GetpBack(), RenderScreen_GetpLogic() );*/
 	Screen_GetpBackGraphic()->mpFuncs->CopyScreen( Screen_GetpLogicGraphic(), Screen_GetpBack() );
-	RenderFade_Main( RenderFrontEnd_GetpPal(), 16 );
+	Fade_Main( RenderFrontEnd_GetpPal(), 16 );
 
 	Player_InputUpdate();
 

@@ -85,13 +85,13 @@ void	RenderIntro_Update( void )
 
 void	RenderIntro_RgFadeIn( const U16 aIndex )
 {
-	RenderFade_Main( RenderFade_GetpBlackPal(), 16 );
+	Fade_Main( Fade_GetpBlackPal(), 16 );
 /*	RenderScreen_CopyScreen( &gpRIntroRgPic[ aIndex ]->mPixels[ 0 ], RenderScreen_GetpLogic() );*/
 	Screen_GetpLogicGraphic()->mpFuncs->CopyScreen( Screen_GetpLogicGraphic(), &gpRIntroRgPic[ aIndex ]->mPixels[ 0 ] );
 	Screen_Update();
 /*	RenderScreen_CopyScreen( &gpRIntroRgPic[ aIndex ]->mPixels[ 0 ], RenderScreen_GetpLogic() );*/
 	Screen_GetpLogicGraphic()->mpFuncs->CopyScreen( Screen_GetpLogicGraphic(), &gpRIntroRgPic[ aIndex ]->mPixels[ 0 ] );
-	RenderFade_Main( &gpRIntroRgPic[ aIndex ]->mHeader.mPalette[ 0 ], 16 );
+	Fade_Main( &gpRIntroRgPic[ aIndex ]->mHeader.mPalette[ 0 ], 16 );
 }
 
 

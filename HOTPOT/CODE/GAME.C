@@ -17,12 +17,13 @@
 #include	"A_MUSIC.H"
 
 #include	"R_BG.H"
-#include	"R_FADE.H"
 #include	"R_GAME.H"
 #include	"R_PAUSE.H"
 
 #include	"KERNEL.H"
 
+#include	<GODLIB\DEBUGLOG\DEBUGLOG.H>
+#include	<GODLIB\FADE\FADE.H>
 #include	<GODLIB\INPUT\INPUT.H>
 #include	<GODLIB\IKBD\IKBD.H>
 #include	<GODLIB\PROFILER\PROFILER.H>
@@ -56,6 +57,7 @@ void	Game_DoPause( void );
 
 void	Game_Init( void )
 {
+	DebugLog_Printf0( "Game_Init" );
 	Balls_Init();
 	Objects_Init();
 	Player_Init();
@@ -198,7 +200,7 @@ void	Game_Main( void )
 
 
 
-	RenderFade_Main( RenderFade_GetpBlackPal(), 16 );
+	Fade_Main( Fade_GetpBlackPal(), 16 );
 }
 
 

@@ -15,8 +15,9 @@
 #include	"A_SPL.H"
 
 #include	"R_FE.H"
-#include	"R_FADE.H"
 
+#include	<GODLIB\DEBUGLOG\DEBUGLOG.H>
+#include	<GODLIB\FADE\FADE.H>
 #include	<GODLIB\IKBD\IKBD.H>
 #include	<GODLIB\INPUT\INPUT.H>
 #include	<GODLIB\SCREEN\SCREEN.H>
@@ -270,12 +271,14 @@ void	FrontEnd_Main( void )
 {
 	U16	lExitFlag;
 
+	DebugLog_Printf0( "FrontEnd_Main" );
+
 	lExitFlag = 0;
 
 	FrontEnd_GetOptions();
 	FrontEnd_SetOptions();
 
-	RenderFade_Main( RenderFade_GetpBlackPal(), 16 );
+	Fade_Main( Fade_GetpBlackPal(), 16 );
 	FrontEnd_SetPageIndex( eFE_PAGE_MAIN );
 
 	while( !lExitFlag )
@@ -588,7 +591,7 @@ void FrontEnd_DoInfo(void)
 			lExitFlag = 1;
 		}
 	}
-	RenderFade_Main( RenderFade_GetpBlackPal(), 16 );
+	Fade_Main( Fade_GetpBlackPal(), 16 );
 	FrontEnd_SetPageIndex( eFE_PAGE_MAIN );
 }
 

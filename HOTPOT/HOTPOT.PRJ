@@ -27,9 +27,11 @@ PRG\HOTPOT.TOS
 ;	OPTIONS
 ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-.C [ -8 -G -M -P -W-par -I..\..\TOOLS.RG\PURE_C\INCLUDE -I..\.. ]
-.L [ -F -G ]
-.S [ -1 -2 -8 -S -Y ]
+.C [ -G -M -P -W-par -I..\..\TOOLS.RG\PURE_C\INCLUDE -I..\.. ]
+.C [ -DdDEBUGLOG ]
+.C [ -DdGODLIB_FADE ]
+.L [ -F -G -Y ]
+.S [ -1 -2 -S -Y ]
 
 =
 
@@ -51,7 +53,7 @@ PRG\HOTPOT.TOS
 ..\..\GODLIB\ASSET\PKG_DIR.C
 ..\..\GODLIB\ASSET\PKG_LNK.C
 ..\..\GODLIB\ASSET\RELOCATE.C
-..\..\GODLIB\AUDIO\AMIXER.C
+..\..\GODLIB\AUDIO\AMIXER.O
 ..\..\GODLIB\AUDIO\AUDIO.C
 ..\..\GODLIB\AUDIO\REL_SPL.C
 ..\..\GODLIB\BASE\BASE.C
@@ -194,7 +196,6 @@ CODE\A_MUSICS.S
 CODE\R_ACROBT.C
 CODE\R_BG.C
 CODE\R_ENTRY.C
-CODE\R_FADE.C
 CODE\R_FE.C
 CODE\R_FONT.C
 CODE\R_GAME.C
@@ -218,6 +219,7 @@ CODE\R_FADE_S.S
 ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ..\..\TOOLS.RG\PURE_C\LIB\PCSTDLIB.LIB       ; standard library
+..\..\TOOLS.RG\PURE_C\LIB\PCFLTLIB.LIB       ; standard library
 
 
 ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

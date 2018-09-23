@@ -191,14 +191,20 @@ void RenderFrontEnd_Update(void)
 	{
 		if( lpPage->RedrawFlag == 2 )
 		{
-			RenderFade_StartVblFade( RenderFade_GetpBlackPal(), 16 );
+			DebugLog_Printf0( "RenderFrontEnd_Update - fade to black" );
+			Fade_StartVblFade( Fade_GetpBlackPal(), 16 );
 /*			RenderScreen_ClearScreen( RenderScreen_GetpBack() );*/
 			Screen_GetpBackGraphic()->mpFuncs->ClearScreen( Screen_GetpBackGraphic() );
 			RenderFrontEnd_DrawPage( lpPage, Screen_GetpBackGraphic() );
 		}
 		else
 		{
-			RenderFade_StartVblFade( &gpRFeBackGround->mHeader.mPalette[ 0 ], 16 );
+			DebugLog_Printf1( "RenderFrontEnd_Update - fade to pal %p", &gpRFeBackGround->mHeader.mPalette[ 0 ] );
+			for( j = 0; j < 16; j++ )
+			{
+				DebugLog_Printf2( "RenderFrontEnd_Update - pal[%d] %d", j, gpRFeBackGround->mHeader.mPalette[ j ] );
+			}
+			Fade_StartVblFade( &gpRFeBackGround->mHeader.mPalette[ 0 ], 16 );
 		}
 /*		RenderScreen_ClearScreen( RenderScreen_GetpLogic() );*/
 		Screen_GetpLogicGraphic()->mpFuncs->ClearScreen( Screen_GetpLogicGraphic() );
@@ -767,13 +773,13 @@ void * RenderFrontEnd_GetpButtonSprites(void)
 
 void RenderFrontEnd_DrawCredits(void)
 {
-	RenderFade_Main( RenderFade_GetpBlackPal(), 16 );
+	Fade_Main( Fade_GetpBlackPal(), 16 );
 /*	RenderScreen_CopyScreen( &gpRFeCredits->mPixels[ 0 ], RenderScreen_GetpLogic() );*/
 	Screen_GetpLogicGraphic()->mpFuncs->CopyScreen( Screen_GetpLogicGraphic(), &gpRFeCredits->mPixels[ 0 ] );
 	Screen_Update();
 /*	RenderScreen_CopyScreen( &gpRFeCredits->mPixels[ 0 ], RenderScreen_GetpLogic() );*/
 	Screen_GetpLogicGraphic()->mpFuncs->CopyScreen( Screen_GetpLogicGraphic(), &gpRFeCredits->mPixels[ 0 ] );
-	RenderFade_Main( &gpRFeCredits->mHeader.mPalette[ 0 ], 16 );
+	Fade_Main( &gpRFeCredits->mHeader.mPalette[ 0 ], 16 );
 }
 
 

@@ -5,7 +5,6 @@
 #include	"R_ENTRY.H"
 
 #include	"R_BG.H"
-#include	"R_FADE.H"
 #include	"R_FONT.H"
 #include	"R_OBJ.H"
 
@@ -17,6 +16,7 @@
 #include	"PLAYER.H"
 #include	"RESOURCE.H"
 
+#include	<GODLIB\FADE\FADE.H>
 #include	<GODLIB\SCREEN\SCREEN.H>
 #include	<GODLIB\SPRITE\SPRITE.H>
 #include	<GODLIB\GRAPHIC\GRAPHIC.H>
@@ -298,7 +298,7 @@ void	RenderEntry_Main( void )
 	Screen_GetpLogicGraphic()->mpFuncs->CopyScreen( Screen_GetpLogicGraphic(), Screen_GetpBack() );
 	RenderObjects_Update();
 	RenderEntry_DrawName( Screen_GetpLogicGraphic() );
-	RenderFade_Main( &RenderBackGround_GetpPic()->mHeader.mPalette[ 0 ], 16 );
+	Fade_Main( &RenderBackGround_GetpPic()->mHeader.mPalette[ 0 ], 16 );
 
 	Player_InputUpdate();
 

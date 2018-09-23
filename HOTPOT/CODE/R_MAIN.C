@@ -4,7 +4,6 @@
 
 #include	"R_MAIN.H"
 
-#include	"R_FADE.H"
 #include	"R_FONT.H"
 
 #include	<GODLIB\SCREEN\SCREEN.H>
@@ -23,7 +22,6 @@
 void	RenderMain_Init( void )
 {
 	Screen_Init(320,200,eGRAPHIC_COLOURMODE_4PLANE,0);
-	RenderFade_Init();
 	RenderFont_Init();
 }
 
@@ -37,7 +35,6 @@ void	RenderMain_Init( void )
 void	RenderMain_DeInit( void )
 {
 	RenderFont_DeInit();
-	RenderFade_DeInit();
 	Screen_DeInit();
 }
 
