@@ -1,0 +1,451 @@
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\ball.bsb
+x           = 0
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 8
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\ballsqsh.bsb
+x           = 0
+y           = 16
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 8
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\arml0.bsb
+x           = 16
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 31
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\arml1.bsb
+x           = 64
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 31
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\arml2.bsb
+x           = 80
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 31
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\eye0.bsb
+x           = 128
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 15
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\eye1.bsb
+x           = 144
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 15
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\eye2.bsb
+x           = 160
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 15
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\legl0.bsb
+x           = 176
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 12
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\legl1.bsb
+x           = 192
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 12
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\legr0.bsb
+x           = 208
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 12
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\legr1.bsb
+x           = 224
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 12
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\armr0.bsb
+x           = 0
+y           = 32
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 31
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\armr1.bsb
+x           = 48
+y           = 32
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 31
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\armr2.bsb
+x           = 64
+y           = 32
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 31
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\ballcrak.bsb
+x           = 240
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 16
+height      = 8
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\button.bsb
+x           = 240
+y           = 32
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 20
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\lednums.bsb
+x           = 128
+y           = 16
+stepx       = 16
+stepy       = 0
+width       = 16
+height      = 14
+planes      = 4
+canvaswidth = 320
+framecount  = 10
+}
+[ SPRITE ]
+{
+src         = raw\gfx\ball-spr.pi1
+msk         = raw\gfx\masks\ball-spr.pi1
+dst         = cook\gen\acrobats.bsb
+x           = 112
+y           = 32
+stepx       = 32
+stepy       = 0
+width       = 32
+height      = 18
+planes      = 4
+canvaswidth = 320
+framecount  = 4
+}
+[ SPRITE ]
+{
+src         = raw\gfx\frnt-btz.pi1
+msk         = raw\gfx\masks\frnt-btz.pi1
+dst         = cook\gen\fe_font.bsb
+x           = 0
+y           = 16
+stepx       = 16
+stepy       = 16
+width       = 16
+height      = 8
+planes      = 4
+canvaswidth = 320
+framecount  = 57
+}
+[ SPRITE ]
+{
+src         = raw\gfx\frnt-btz.pi1
+msk         = raw\gfx\masks\frnt-btz.pi1
+dst         = cook\gen\fe_eyes.bsb
+x           = 0
+y           = 0
+stepx       = 16
+stepy       = 0
+width       = 16
+height      = 16
+planes      = 4
+canvaswidth = 320
+framecount  = 57
+}
+[ SPRITE ]
+{
+src         = raw\gfx\frnt-btz.pi1
+msk         = raw\gfx\masks\frnt-btz.pi1
+dst         = cook\gen\fe_butn.bsb
+x           = 64
+y           = 0
+stepx       = 16
+stepy       = 0
+width       = 16
+height      = 11
+planes      = 4
+canvaswidth = 320
+framecount  = 2
+}
+[ SPRITE ]
+{
+src         = raw\gfx\frnt-btz.pi1
+msk         = raw\gfx\masks\frnt-btz.pi1
+dst         = cook\gen\fe_dot.bsb
+x           = 96
+y           = 0
+stepx       = 16
+stepy       = 0
+width       = 16
+height      = 4
+planes      = 4
+canvaswidth = 320
+framecount  = 2
+}
+[ SPRITE ]
+{
+src         = raw\gfx\frnt-btz.pi1
+msk         = raw\gfx\masks\frnt-btz.pi1
+dst         = cook\gen\fe_keys.bsb
+x           = 0
+y           = 64
+stepx       = 0
+stepy       = 0
+width       = 48
+height      = 21
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\frnt-btz.pi1
+msk         = raw\gfx\masks\frnt-btz.pi1
+dst         = cook\gen\fe_jag.bsb
+x           = 48
+y           = 64
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 21
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\frnt-btz.pi1
+msk         = raw\gfx\masks\frnt-btz.pi1
+dst         = cook\gen\fe_joy.bsb
+x           = 80
+y           = 64
+stepx       = 0
+stepy       = 0
+width       = 32
+height      = 21
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\frnt-btz.pi1
+msk         = raw\gfx\masks\frnt-btz.pi1
+dst         = cook\gen\fe_12.bsb
+x           = 112
+y           = 64
+stepx       = 16
+stepy       = 0
+width       = 16
+height      = 9
+planes      = 4
+canvaswidth = 320
+framecount  = 2
+}
+[ SPRITE ]
+{
+src         = raw\gfx\frnt-btz.pi1
+msk         = raw\gfx\masks\frnt-btz.pi1
+dst         = cook\gen\fe_ab.bsb
+x           = 0
+y           = 96
+stepx       = 32
+stepy       = 0
+width       = 32
+height      = 15
+planes      = 4
+canvaswidth = 320
+framecount  = 4
+}
+[ SPRITE ]
+{
+src         = raw\gfx\pause.pi1
+msk         = raw\gfx\masks\pause.pi1
+dst         = cook\gen\pause.bsb
+x           = 0
+y           = 0
+stepx       = 0
+stepy       = 0
+width       = 80
+height      = 19
+planes      = 4
+canvaswidth = 320
+framecount  = 1
+}
+[ SPRITE ]
+{
+src         = raw\gfx\hi-font.pi1
+msk         = raw\gfx\masks\hi-font.pi1
+dst         = cook\gen\hi_font.bsb
+x           = 0
+y           = 0
+stepx       = 16
+stepy       = 16
+width       = 16
+height      = 8
+planes      = 4
+canvaswidth = 320
+framecount  = 57
+}
+
