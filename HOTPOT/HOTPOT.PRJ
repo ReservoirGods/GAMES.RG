@@ -1,5 +1,5 @@
 ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-;	BOX EXAMPLE
+;	HOTPOT - DOUBLE JUGGLE VEGATABOBBLE: THIS IS VEGETABLE JUGGLING (2002)
 ;
 ;	Expected folder structure:
 ;   |
@@ -10,7 +10,7 @@
 
 ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ;	SPECIAL OPTIONS FOR PUREBOT
-;:-B=HOTPT.LOG
+;:-B=HOTPOT.LOG
 ; -V
 ; -K
 ;:.C[ -NOUT ]
@@ -28,7 +28,7 @@ PRG\HOTPOT.TOS
 ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 .C [ -G -M -P -W-par -I..\..\TOOLS.RG\PURE_C\INCLUDE -I..\.. ]
-.C [ -DdDEBUGLOG ]
+;.C [ -DdDEBUGLOG ]
 .C [ -DdGODLIB_FADE ]
 .L [ -F -G -Y ]
 .S [ -1 -2 -S -Y ]
@@ -97,6 +97,7 @@ PRG\HOTPOT.TOS
 ..\..\GODLIB\PLATFORM\PLATFORM.C
 ..\..\GODLIB\PROFILER\PROFILER.C
 ..\..\GODLIB\PROFILER\PROFILES.S
+..\..\GODLIB\RANDOM\RANDOM.C
 ..\..\GODLIB\SCRNGRAB\SCRNGRAB.C
 ..\..\GODLIB\SCREEN\SCREEN.C
 ..\..\GODLIB\SPRITE\ASPRITE.C
@@ -159,15 +160,7 @@ CODE\KERNEL.C
 CODE\MAIN.C
 CODE\OBJECTS.C
 CODE\PLAYER.C
-CODE\RANDOM.C
 CODE\RESOURCE.C
-
-
-;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-;	GAME MODULES ( ASM )
-;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-;CLOCK2_S.S
 
 
 ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -211,7 +204,7 @@ CODE\R_SCORE.C
 ;	RENDER MODULES ( ASM )
 ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-CODE\R_FADE_S.S
+;CODE\R_FADE_S.S
 
 
 ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

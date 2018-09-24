@@ -11,7 +11,6 @@
 #include	"HISCORE.H"
 #include	"OBJECTS.H"
 #include	"PLAYER.H"
-#include	"RANDOM.H"
 
 #include	"A_GAME.H"
 #include	"A_MUSIC.H"
@@ -27,6 +26,7 @@
 #include	<GODLIB\INPUT\INPUT.H>
 #include	<GODLIB\IKBD\IKBD.H>
 #include	<GODLIB\PROFILER\PROFILER.H>
+#include	<GODLIB\RANDOM\RANDOM.H>
 #include	<GODLIB\SCREEN\SCREEN.H>
 
 
@@ -61,7 +61,6 @@ void	Game_Init( void )
 	Balls_Init();
 	Objects_Init();
 	Player_Init();
-	Random_Init();
 	AudioGame_Init();
 	RenderGame_Init();
 }
@@ -78,7 +77,6 @@ void	Game_DeInit( void )
 	Balls_DeInit();
 	Objects_DeInit();
 	Player_DeInit();
-	Random_DeInit();
 	AudioGame_DeInit();
 	RenderGame_DeInit();
 }
@@ -112,7 +110,6 @@ void	Game_LevelInit( void )
 	Objects_LevelInit();
 	Clocks_LevelInit();
 	Player_LevelInit();
-	Random_LevelInit();
 	AudioGame_LevelInit();
 	RenderGame_LevelInit();
 }
@@ -141,7 +138,6 @@ void	Game_Update( void )
 	Balls_Update();
 	Objects_Update();
 	Player_Update();
-	Random_Update();
 	Clocks_Update();
 }
 
