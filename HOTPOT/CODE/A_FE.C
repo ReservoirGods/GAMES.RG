@@ -145,7 +145,7 @@ U8	AudioFrontEnd_Load( void )
 		gAFrontEndSounds[ i ].mLength = Resource_GetFileSize( sTagString_GetpString( i, &gAFrontEndFileNames[ 0 ], eAFRONTEND_LIMIT ) );
 		gAFrontEndSounds[ i ].mpSound = Resource_Calloc( gAFrontEndSounds[ i ].mLength + 2048, 0 );
 		Resource_LoadAt( sTagString_GetpString( i, &gAFrontEndFileNames[ 0 ], eAFRONTEND_LIMIT ), gAFrontEndSounds[ i ].mpSound );
-		Audio_DmaScaleSignedVol( &gAFrontEndSounds[ i ], 0x80 );
+		Audio_ScaleVolumeSigned( &gAFrontEndSounds[ i ], 0x80 );
 	}
 
 	return( 1 );

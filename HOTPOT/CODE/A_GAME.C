@@ -195,7 +195,7 @@ U8	AudioGame_Load( void )
 		gAGameSounds[ i ].mpSound = Resource_Calloc( gAGameSounds[ i ].mLength + 2048, 0 );
 		Resource_LoadAt( sTagString_GetpString( i, &gAGameFileNames[ 0 ], eAGAME_LIMIT ), gAGameSounds[ i ].mpSound );
 
-		Audio_DmaScaleSignedVol( &gAGameSounds[ i ], 0x80 );
+		Audio_ScaleVolumeSigned( &gAGameSounds[ i ], 0x80 );
 	}
 
 	return( 1 );
