@@ -286,7 +286,7 @@ framecount  = 4
 [ SPRITE ]
 {
 src         = RAW\GFX\FRNT-BTZ.PI1
-msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+msk         = RAW\GFX\MASKS\FRNT-BTZ.PI1
 dst         = COOKED\GEN\FE_FONT.BSB
 x           = 0
 y           = 16
@@ -301,7 +301,7 @@ framecount  = 57
 [ SPRITE ]
 {
 src         = RAW\GFX\FRNT-BTZ.PI1
-msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+msk         = RAW\GFX\MASKS\FRNT-BTZ.PI1
 dst         = COOKED\GEN\FE_EYES.BSB
 x           = 0
 y           = 0
@@ -316,7 +316,7 @@ framecount  = 57
 [ SPRITE ]
 {
 src         = RAW\GFX\FRNT-BTZ.PI1
-msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+msk         = RAW\GFX\MASKS\FRNT-BTZ.PI1
 dst         = COOKED\GEN\FE_BUTN.BSB
 x           = 64
 y           = 0
@@ -331,7 +331,7 @@ framecount  = 2
 [ SPRITE ]
 {
 src         = RAW\GFX\FRNT-BTZ.PI1
-msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+msk         = RAW\GFX\MASKS\FRNT-BTZ.PI1
 dst         = COOKED\GEN\FE_DOT.BSB
 x           = 96
 y           = 0
@@ -346,7 +346,7 @@ framecount  = 2
 [ SPRITE ]
 {
 src         = RAW\GFX\FRNT-BTZ.PI1
-msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+msk         = RAW\GFX\MASKS\FRNT-BTZ.PI1
 dst         = COOKED\GEN\FE_KEYS.BSB
 x           = 0
 y           = 64
@@ -361,7 +361,7 @@ framecount  = 1
 [ SPRITE ]
 {
 src         = RAW\GFX\FRNT-BTZ.PI1
-msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+msk         = RAW\GFX\MASKS\FRNT-BTZ.PI1
 dst         = COOKED\GEN\FE_JAG.BSB
 x           = 48
 y           = 64
@@ -376,7 +376,7 @@ framecount  = 1
 [ SPRITE ]
 {
 src         = RAW\GFX\FRNT-BTZ.PI1
-msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+msk         = RAW\GFX\MASKS\FRNT-BTZ.PI1
 dst         = COOKED\GEN\FE_JOY.BSB
 x           = 80
 y           = 64
@@ -391,7 +391,7 @@ framecount  = 1
 [ SPRITE ]
 {
 src         = RAW\GFX\FRNT-BTZ.PI1
-msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+msk         = RAW\GFX\MASKS\FRNT-BTZ.PI1
 dst         = COOKED\GEN\FE_12.BSB
 x           = 112
 y           = 64
@@ -406,7 +406,7 @@ framecount  = 2
 [ SPRITE ]
 {
 src         = RAW\GFX\FRNT-BTZ.PI1
-msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+msk         = RAW\GFX\MASKS\FRNT-BTZ.PI1
 dst         = COOKED\GEN\FE_AB.BSB
 x           = 0
 y           = 96
