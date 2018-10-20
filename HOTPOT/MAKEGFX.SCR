@@ -1,8 +1,8 @@
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\ball.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\BALL.BSB
 x           = 0
 y           = 0
 stepx       = 0
@@ -15,9 +15,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\ballsqsh.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\BALLSQSH.BSB
 x           = 0
 y           = 16
 stepx       = 0
@@ -30,9 +30,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\arml0.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\ARML0.BSB
 x           = 16
 y           = 0
 stepx       = 0
@@ -45,9 +45,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\arml1.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\ARML1.BSB
 x           = 64
 y           = 0
 stepx       = 0
@@ -60,9 +60,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\arml2.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\ARML2.BSB
 x           = 80
 y           = 0
 stepx       = 0
@@ -75,9 +75,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\eye0.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\EYE0.BSB
 x           = 128
 y           = 0
 stepx       = 0
@@ -90,9 +90,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\eye1.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\EYE1.BSB
 x           = 144
 y           = 0
 stepx       = 0
@@ -105,9 +105,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\eye2.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\EYE2.BSB
 x           = 160
 y           = 0
 stepx       = 0
@@ -120,9 +120,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\legl0.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\LEGL0.BSB
 x           = 176
 y           = 0
 stepx       = 0
@@ -135,9 +135,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\legl1.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\LEGL1.BSB
 x           = 192
 y           = 0
 stepx       = 0
@@ -150,9 +150,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\legr0.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\LEGR0.BSB
 x           = 208
 y           = 0
 stepx       = 0
@@ -165,9 +165,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\legr1.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\LEGR1.BSB
 x           = 224
 y           = 0
 stepx       = 0
@@ -180,9 +180,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\armr0.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\ARMR0.BSB
 x           = 0
 y           = 32
 stepx       = 0
@@ -195,9 +195,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\armr1.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\ARMR1.BSB
 x           = 48
 y           = 32
 stepx       = 0
@@ -210,9 +210,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\armr2.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\ARMR2.BSB
 x           = 64
 y           = 32
 stepx       = 0
@@ -225,9 +225,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\ballcrak.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\BALLCRAK.BSB
 x           = 240
 y           = 0
 stepx       = 0
@@ -240,9 +240,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\button.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\BUTTON.BSB
 x           = 240
 y           = 32
 stepx       = 0
@@ -255,9 +255,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\lednums.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\LEDNUMS.BSB
 x           = 128
 y           = 16
 stepx       = 16
@@ -270,9 +270,9 @@ framecount  = 10
 }
 [ SPRITE ]
 {
-src         = raw\gfx\ball-spr.pi1
-msk         = raw\gfx\masks\ball-spr.pi1
-dst         = cook\gen\acrobats.bsb
+src         = RAW\GFX\BALL-SPR.PI1
+msk         = COOKED\GFX\MASKS\BALL-SPR.PI1
+dst         = COOKED\GEN\ACROBATS.BSB
 x           = 112
 y           = 32
 stepx       = 32
@@ -285,9 +285,9 @@ framecount  = 4
 }
 [ SPRITE ]
 {
-src         = raw\gfx\frnt-btz.pi1
-msk         = raw\gfx\masks\frnt-btz.pi1
-dst         = cook\gen\fe_font.bsb
+src         = RAW\GFX\FRNT-BTZ.PI1
+msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+dst         = COOKED\GEN\FE_FONT.BSB
 x           = 0
 y           = 16
 stepx       = 16
@@ -300,9 +300,9 @@ framecount  = 57
 }
 [ SPRITE ]
 {
-src         = raw\gfx\frnt-btz.pi1
-msk         = raw\gfx\masks\frnt-btz.pi1
-dst         = cook\gen\fe_eyes.bsb
+src         = RAW\GFX\FRNT-BTZ.PI1
+msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+dst         = COOKED\GEN\FE_EYES.BSB
 x           = 0
 y           = 0
 stepx       = 16
@@ -315,9 +315,9 @@ framecount  = 57
 }
 [ SPRITE ]
 {
-src         = raw\gfx\frnt-btz.pi1
-msk         = raw\gfx\masks\frnt-btz.pi1
-dst         = cook\gen\fe_butn.bsb
+src         = RAW\GFX\FRNT-BTZ.PI1
+msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+dst         = COOKED\GEN\FE_BUTN.BSB
 x           = 64
 y           = 0
 stepx       = 16
@@ -330,9 +330,9 @@ framecount  = 2
 }
 [ SPRITE ]
 {
-src         = raw\gfx\frnt-btz.pi1
-msk         = raw\gfx\masks\frnt-btz.pi1
-dst         = cook\gen\fe_dot.bsb
+src         = RAW\GFX\FRNT-BTZ.PI1
+msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+dst         = COOKED\GEN\FE_DOT.BSB
 x           = 96
 y           = 0
 stepx       = 16
@@ -345,9 +345,9 @@ framecount  = 2
 }
 [ SPRITE ]
 {
-src         = raw\gfx\frnt-btz.pi1
-msk         = raw\gfx\masks\frnt-btz.pi1
-dst         = cook\gen\fe_keys.bsb
+src         = RAW\GFX\FRNT-BTZ.PI1
+msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+dst         = COOKED\GEN\FE_KEYS.BSB
 x           = 0
 y           = 64
 stepx       = 0
@@ -360,9 +360,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\frnt-btz.pi1
-msk         = raw\gfx\masks\frnt-btz.pi1
-dst         = cook\gen\fe_jag.bsb
+src         = RAW\GFX\FRNT-BTZ.PI1
+msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+dst         = COOKED\GEN\FE_JAG.BSB
 x           = 48
 y           = 64
 stepx       = 0
@@ -375,9 +375,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\frnt-btz.pi1
-msk         = raw\gfx\masks\frnt-btz.pi1
-dst         = cook\gen\fe_joy.bsb
+src         = RAW\GFX\FRNT-BTZ.PI1
+msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+dst         = COOKED\GEN\FE_JOY.BSB
 x           = 80
 y           = 64
 stepx       = 0
@@ -390,9 +390,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\frnt-btz.pi1
-msk         = raw\gfx\masks\frnt-btz.pi1
-dst         = cook\gen\fe_12.bsb
+src         = RAW\GFX\FRNT-BTZ.PI1
+msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+dst         = COOKED\GEN\FE_12.BSB
 x           = 112
 y           = 64
 stepx       = 16
@@ -405,9 +405,9 @@ framecount  = 2
 }
 [ SPRITE ]
 {
-src         = raw\gfx\frnt-btz.pi1
-msk         = raw\gfx\masks\frnt-btz.pi1
-dst         = cook\gen\fe_ab.bsb
+src         = RAW\GFX\FRNT-BTZ.PI1
+msk         = COOKED\GFX\MASKS\FRNT-BTZ.PI1
+dst         = COOKED\GEN\FE_AB.BSB
 x           = 0
 y           = 96
 stepx       = 32
@@ -420,9 +420,9 @@ framecount  = 4
 }
 [ SPRITE ]
 {
-src         = raw\gfx\pause.pi1
-msk         = raw\gfx\masks\pause.pi1
-dst         = cook\gen\pause.bsb
+src         = RAW\GFX\PAUSE.PI1
+msk         = COOKED\GFX\MASKS\PAUSE.PI1
+dst         = COOKED\GEN\PAUSE.BSB
 x           = 0
 y           = 0
 stepx       = 0
@@ -435,9 +435,9 @@ framecount  = 1
 }
 [ SPRITE ]
 {
-src         = raw\gfx\hi-font.pi1
-msk         = raw\gfx\masks\hi-font.pi1
-dst         = cook\gen\hi_font.bsb
+src         = RAW\GFX\HI-FONT.PI1
+msk         = COOKED\GFX\MASKS\HI-FONT.PI1
+dst         = COOKED\GEN\HI_FONT.BSB
 x           = 0
 y           = 0
 stepx       = 16
@@ -449,3 +449,18 @@ canvaswidth = 320
 framecount  = 57
 }
 
+[ SPRITE ]
+{
+src         = RAW\GFX\FONTS.PI1
+msk         = COOKED\GFX\MASKS\FONTS.PI1
+dst         = COOKED\GEN\DARKFNT0.BSB
+x           = 0
+y           = 96
+stepx       = 16
+stepy       = 16
+width       = 16
+height      = 8
+planes      = 4
+canvaswidth = 320
+framecount  = 47
+}
