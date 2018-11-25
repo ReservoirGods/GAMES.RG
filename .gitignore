@@ -1,0 +1,15 @@
+*.DP
+*.fdb
+*.lib
+*.LOG
+*.O
+*.pdb
+*.plk
+*.SAV
+*.SYM
+
+dummy.txt
+
+HOTPOT/COOKED/
+HOTPOT/OUT/
+HOTPOT/PRG/
