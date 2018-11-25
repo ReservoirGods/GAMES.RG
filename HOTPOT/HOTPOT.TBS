@@ -55,3 +55,11 @@ PALMAKE RAW\GFX\FRONT.PI1 COOKED\GEN\FE.PAL
 
 MAKELINK COOKED\GEN PRG\GEN.LNK
 GODPACK PRG\GEN.LNK
+
+##############################################################################
+# DISK IMAGE GENERATION
+##############################################################################
+
+COPY PRG\*.LNK COOKED\IMAGE
+COPY PRG\HOTPOT.TOS COOKED\IMAGE\AUTO\HOTPOT.PRG
+DISKIMAGE COOKED\IMAGE COOKED\GODPEY.ST
