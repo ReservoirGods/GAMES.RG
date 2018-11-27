@@ -256,11 +256,11 @@ void *	Resource_Alloc(    const U32 aSize, const U8 aFastRamFlag )
 
 	if( aFastRamFlag )
 	{
-		lpMem = Memory_ScreenAlloc( aSize );
+		lpMem = mMEMSCREENCALLOC( aSize );
 	}
 	else
 	{
-		lpMem = Memory_Alloc( aSize );
+		lpMem = mMEMALLOC( aSize );
 	}
 
 	return( lpMem );
@@ -279,11 +279,11 @@ void *	Resource_Calloc(    const U32 aSize, const U8 aFastRamFlag )
 
 	if( aFastRamFlag )
 	{
-		lpMem = Memory_ScreenCalloc( aSize );
+		lpMem = mMEMSCREENCALLOC( aSize );
 	}
 	else
 	{
-		lpMem = Memory_Calloc( aSize );
+		lpMem = mMEMCALLOC( aSize );
 	}
 
 	return( lpMem );
