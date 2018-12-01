@@ -84,7 +84,7 @@ void	GameSave_Load( void )
 	U16			i,j;
 	
 	lHandle = File_Open( "HOTPOT.SAV" );
-	if( lHandle >= 0 )
+	if( File_HandleIsValid( lHandle ) )
 	{
 		lSize = File_Read( lHandle, sizeof(sGameSave), &gGameSave );		
 		File_Close( lHandle );
