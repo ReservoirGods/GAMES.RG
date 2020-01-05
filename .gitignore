@@ -1,14 +1,19 @@
 *.DP
 *.fdb
+*.kip
 *.lib
 *.LOG
 *.O
+*.obj
 *.pdb
 *.plk
+*.sln
 *.SAV
 *.SYM
+*.vcxproj
+*.vcxproj.filters
 
-dummy.txt
+*-Debug.exe
 
 HOTPOT/COOKED/
 HOTPOT/OUT/
